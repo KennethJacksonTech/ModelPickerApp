@@ -12,10 +12,10 @@
 		4C3A8FD8254E95DE00E559E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3A8FD7254E95DE00E559E9 /* ContentView.swift */; };
 		4C3A8FDC254E95DF00E559E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A8FDB254E95DF00E559E9 /* Assets.xcassets */; };
 		4C3A8FDF254E95DF00E559E9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C3A8FDE254E95DF00E559E9 /* Preview Assets.xcassets */; };
-		4C93EBC0254EA0FB007A24E0 /* fender_stratocaster.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4C93EBBC254EA0FA007A24E0 /* fender_stratocaster.usdz */; };
-		4C93EBC1254EA0FB007A24E0 /* toy_biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4C93EBBD254EA0FB007A24E0 /* toy_biplane.usdz */; };
-		4C93EBC2254EA0FB007A24E0 /* toy_robot_vintage.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4C93EBBE254EA0FB007A24E0 /* toy_robot_vintage.usdz */; };
-		4C93EBC6254EA132007A24E0 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4C93EBC5254EA132007A24E0 /* teapot.usdz */; };
+		4C76FBAD2640AF920074A19C /* bull-plug-valve.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4C76FBAA2640AF920074A19C /* bull-plug-valve.usdz */; };
+		4C76FBAE2640AF920074A19C /* 18R2E.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4C76FBAB2640AF920074A19C /* 18R2E.usdz */; };
+		4C76FBAF2640AF920074A19C /* 9146-101.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4C76FBAC2640AF920074A19C /* 9146-101.usdz */; };
+		4CE828B2263CD66F00737499 /* 40_Jumbo.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4CE828B1263CD66F00737499 /* 40_Jumbo.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		4C3A8FDB254E95DF00E559E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C3A8FDE254E95DF00E559E9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C3A8FE0254E95DF00E559E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4C93EBBC254EA0FA007A24E0 /* fender_stratocaster.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = fender_stratocaster.usdz; sourceTree = "<group>"; };
-		4C93EBBD254EA0FB007A24E0 /* toy_biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane.usdz; sourceTree = "<group>"; };
-		4C93EBBE254EA0FB007A24E0 /* toy_robot_vintage.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_robot_vintage.usdz; sourceTree = "<group>"; };
-		4C93EBC5254EA132007A24E0 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		4C76FBAA2640AF920074A19C /* bull-plug-valve.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "bull-plug-valve.usdz"; sourceTree = "<group>"; };
+		4C76FBAB2640AF920074A19C /* 18R2E.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 18R2E.usdz; sourceTree = "<group>"; };
+		4C76FBAC2640AF920074A19C /* 9146-101.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = "9146-101.usdz"; sourceTree = "<group>"; };
+		4CE828B1263CD66F00737499 /* 40_Jumbo.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = 40_Jumbo.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +84,10 @@
 		4C93EBBA254E99BF007A24E0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				4C93EBBC254EA0FA007A24E0 /* fender_stratocaster.usdz */,
-				4C93EBBD254EA0FB007A24E0 /* toy_biplane.usdz */,
-				4C93EBC5254EA132007A24E0 /* teapot.usdz */,
-				4C93EBBE254EA0FB007A24E0 /* toy_robot_vintage.usdz */,
+				4C76FBAB2640AF920074A19C /* 18R2E.usdz */,
+				4C76FBAC2640AF920074A19C /* 9146-101.usdz */,
+				4C76FBAA2640AF920074A19C /* bull-plug-valve.usdz */,
+				4CE828B1263CD66F00737499 /* 40_Jumbo.usdz */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -153,12 +153,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C93EBC6254EA132007A24E0 /* teapot.usdz in Resources */,
-				4C93EBC1254EA0FB007A24E0 /* toy_biplane.usdz in Resources */,
-				4C93EBC2254EA0FB007A24E0 /* toy_robot_vintage.usdz in Resources */,
+				4CE828B2263CD66F00737499 /* 40_Jumbo.usdz in Resources */,
 				4C3A8FDF254E95DF00E559E9 /* Preview Assets.xcassets in Resources */,
-				4C93EBC0254EA0FB007A24E0 /* fender_stratocaster.usdz in Resources */,
+				4C76FBAF2640AF920074A19C /* 9146-101.usdz in Resources */,
+				4C76FBAE2640AF920074A19C /* 18R2E.usdz in Resources */,
 				4C3A8FDC254E95DF00E559E9 /* Assets.xcassets in Resources */,
+				4C76FBAD2640AF920074A19C /* bull-plug-valve.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
